@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo Job Challenge</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+</head>
+
+<body>
+    <header class="header" id="acceuil">
+        <div class="header_div1">
+            <p class="header_div1_p--titre">Page de profil</p>
+            <p class="header_div1_p">Individu | Date</p>
+        </div>
+        <div class="header_div2">
+            <div class="header_div2_div1">
+                <p class="header_div2_div1_p">Individu</p>
+            </div>
+            <div class="header_div2_div2">
+                <ul class="header_div2_div2_ul">
+                    <li class="header_div2_div2_ul_li"><a href="#acceuil">Acceuil</a></li>
+                    <li class="header_div2_div2_ul_li"><a href="#a_propos">A propos</a></li>
+                    <li class="header_div2_div2_ul_li"><a href="#projet">Projet</a></li>
+                    <li class="header_div2_div2_ul_li"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_div3">
+            <!-- <p class="header_div3_p">Photo de profil</p> -->
+            <img class="header_div3_p" src="./images/JohnnyBeegood-Profil.png" alt="">
+        </div>
+    </header>
+    <main>
+        <aside id="a_propos">
+            <p>Edito/citation/caroussel</p>
+        </aside>
+        <article class="parent" id="projet">
+            <p class="parent_p">Projets</p>
+            <img class="parent_enfants" src="./images/Projet_1.png" alt="" />
+            <img class="parent_enfants" src="./images/Projet_2.png" alt="" />
+            <img class="parent_enfants" src="./images/Projet_3.png" alt="" />
+            <img class="parent_enfants" src="./images/Projet_4.png" alt="" />
+            <img class="parent_enfants" src="./images/Projet_5.png" alt="" />
+            <img class="parent_enfants" src="./images/Projet_6.png" alt="" />
+
+            <p class="parent_p">Contact</p>
+            <div class="parent_div1">
+                <table id="contact">
+                    <form method="post" action="traitement.php">
+                        <tr>
+                            <td class="left">
+                                <p>First Name</p>
+                            </td>
+                            <td class="right">
+                                <input class="inputTxt" type="text" name="FirstName" id="FirstName" placeholder="Your name..." />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                <p>Last Name</p>
+                            </td>
+                            <td class="right">
+                                <input class="inputTxt" type="text" name="LastName" id="LastName" placeholder="Your last name..." />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                <p>Subject</p>
+                            </td>
+                            <td class="right">
+                                <textarea class="inputTxt" type="text" name="Subject" id="Subject" placeholder="Write something..."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="left">
+                                <!-- <p>test3</p> -->
+                            </td>
+                            <td class="right">
+                                <input class="parent_div1_boutton" type="submit" value="Submit" />
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </article>
+    </main>
+
+    <div class="divspace"></div>
+
+    <footer>
+        <div class="footer_div1">
+            <h1>Footer</h1>
+            <div class="div_logo_social">
+                <img class="social" src="./images/facebook-logo.png" alt="" />
+                <img class="social" src="./images/twitter-logo.jpg" alt="" />
+                <img class="social" src="./images/linkedin-logo.png" alt="" />
+            </div>
+        </div>
+        <!-- <p>test</p> -->
+    </footer>
+</body>
+
+</html>
