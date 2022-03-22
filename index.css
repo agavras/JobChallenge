@@ -80,6 +80,12 @@ a {
     align-items: center;
 }
 
+#slidy-container {
+	width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 .parent {
     display: flex;
     justify-content: space-around;
